@@ -27,6 +27,7 @@ Este proyecto trata de crear un servidor compuesto por tres capas de nodos. Los 
 *Una petición que llega a un nodo A es replicada inmediatamente a otros nodos A. Después de 10 peticiones recividas, los nodos A replican la información a sus nodos B
 *Los nodos B replican su informacion a los nodos C cada 10 segundos.
 *Hay que mostrar los cambios en un web mediante websockets.
+*TODAS las comunicaciones entre los nodos son mediante Sockets
 
 <h2>Resultados</h2>
 
